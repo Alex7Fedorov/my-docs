@@ -1,0 +1,25 @@
+import{H as e,Q as t,ht as n,nt as r,rt as i,tt as a,zt as o}from"./chunks/framework.ouUSJJSK.js";var s=JSON.parse(`{"title":"Runtime API Examples","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"api/api-examples.md","filePath":"api/api-examples.md"}`),c={name:`api/api-examples.md`};function l(e,s,c,l,u,d){return n(),a(`div`,null,[s[0]||=r(`<h1 id="runtime-api-examples" tabindex="-1">Runtime API Examples <a class="header-anchor" href="#runtime-api-examples" aria-label="Permalink to “Runtime API Examples”">​</a></h1><p>This page demonstrates usage of some of the runtime APIs provided by VitePress.</p><div class="info custom-block"><p class="custom-block-title custom-block-title-default">INFO</p><p>This is an info box.</p></div><div class="tip custom-block"><p class="custom-block-title custom-block-title-default">TIP</p><p>This is a tip.</p></div><div class="warning custom-block"><p class="custom-block-title custom-block-title-default">WARNING</p><p>This is a warning.</p></div><div class="danger custom-block"><p class="custom-block-title custom-block-title-default">DANGER</p><p>This is a dangerous warning.</p></div><details class="details custom-block"><summary>Details</summary><p>This is a details block.</p></details><p>The main <code>useData()</code> API can be used to access site, theme, and page data for the current page. It works in both <code>.md</code> and <code>.vue</code> files:</p><div class="language-js"><button title="Copy code" data-copied="Copied" class="copy"></button><span class="lang">js</span><pre class="shiki shiki-themes github-light github-dark" style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e;" tabindex="0" dir="ltr"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#11782a;--shiki-dark:#85E89D;">script</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> setup</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">import { useData } from &#39;vitepress&#39;</span></span>
+<span class="line"></span>
+<span class="line highlighted"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">const { theme, page, frontmatter } = useData()</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;/</span><span style="--shiki-light:#11782a;--shiki-dark:#85E89D;">script</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span></code></pre></div><h2 id="results" tabindex="-1">Results <a class="header-anchor" href="#results" aria-label="Permalink to “Results”">​</a></h2><h3 id="theme-data" tabindex="-1">Theme Data <a class="header-anchor" href="#theme-data" aria-label="Permalink to “Theme Data”">​</a></h3>`,11),t(`pre`,null,o(e.theme),1),s[1]||=t(`h3`,{id:`page-data`,tabindex:`-1`},[i(`Page Data `),t(`a`,{class:`header-anchor`,href:`#page-data`,"aria-label":`Permalink to “Page Data”`},`​`)],-1),t(`pre`,null,o(e.page),1),s[2]||=t(`h3`,{id:`page-frontmatter`,tabindex:`-1`},[i(`Page Frontmatter `),t(`a`,{class:`header-anchor`,href:`#page-frontmatter`,"aria-label":`Permalink to “Page Frontmatter”`},`​`)],-1),t(`pre`,null,o(e.frontmatter),1),s[3]||=r(`<div class="language-"><button title="Copy code" data-copied="Copied" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark" style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e;" tabindex="0" dir="ltr"><code><span class="line"><span></span></span>
+<span class="line"><span>&lt;script setup&gt;</span></span>
+<span class="line"><span>import { useData } from &#39;vitepress&#39;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>const { site, theme, page, frontmatter } = useData()</span></span>
+<span class="line"><span>&lt;/script&gt;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>## Results</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>### Theme Data</span></span>
+<span class="line"><span>&lt;pre&gt;{{ theme }}&lt;/pre&gt;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>### Page Data</span></span>
+<span class="line"><span>&lt;pre&gt;{{ page }}&lt;/pre&gt;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>### Page Frontmatter</span></span>
+<span class="line"><span>&lt;pre&gt;{{ frontmatter }}&lt;/pre&gt;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>## More</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).</span></span></code></pre></div>`,1)])}var u=e(c,[[`render`,l]]);export{s as __pageData,u as default};

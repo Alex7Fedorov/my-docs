@@ -1,0 +1,1 @@
+var e=`/my-docs/logo_2.svg`;export{e as t};
