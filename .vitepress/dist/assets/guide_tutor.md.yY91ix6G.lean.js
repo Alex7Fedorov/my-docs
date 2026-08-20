@@ -1,0 +1,1 @@
+import{H as e,ht as t,tt as n}from"./chunks/framework.DWrLY5bF.js";var r=JSON.parse(`{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/tutor.md","filePath":"guide/tutor.md"}`),i={name:`guide/tutor.md`};function a(e,r,i,a,o,s){return t(),n(`div`)}var o=e(i,[[`render`,a]]);export{r as __pageData,o as default};

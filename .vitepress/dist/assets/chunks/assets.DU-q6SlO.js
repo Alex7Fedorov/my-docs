@@ -1,0 +1,1 @@
+var e=`/5G%20Document/logo_2.svg`;export{e as t};
