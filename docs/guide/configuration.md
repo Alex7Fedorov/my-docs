@@ -68,24 +68,3 @@ Bullet lists nested within numbered list:
 
 
 A [link](http://example.com).
-
-![Image](Icon-pictures.png "icon")
-
-> Markdown uses email-style
-characters for blockquoting.
->
-> Multiple paragraphs need to be prepended individually.
-
-Most inline <abbr title="Hypertext Markup Language">HTML</abbr> tags are supported.
-
-
-<p>A <a href="http://example.com">link</a>.</p>
-
-<p><img alt="Image" title="icon" src="Icon-pictures.png" /></p>
-
-<blockquote>
-<p>Markdown uses email-style characters for blockquoting.</p>
-<p>Multiple paragraphs need to be prepended individually.</p>
-</blockquote>
-
-<p>Most inline <abbr title="Hypertext Markup Language">HTML</abbr> tags are supported.</p
