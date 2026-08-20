@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/5G Document/',
+  base: '/my-docs/',
+  title: "eLearning Server 5G",
   srcDir: "docs",
   
   title: "eLearning Server 5G",
